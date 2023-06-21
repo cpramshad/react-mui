@@ -7,7 +7,7 @@ export const MUISelect = () => {
     setCountry(e.target.value);
   };
   return (
-    <Box width="250px">
+    <Box width="250px" mb={1}>
       <TextField
         label="Select country"
         select
