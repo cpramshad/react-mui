@@ -3,12 +3,13 @@ import "./App.css";
 // import { MUIButton } from "./components/MUIButton";
 // import { MUITextField } from "./components/MUITextField";
 // import { MUISelect } from "./components/MUISelect";
-import CustomizedSteppers from "./components/Stepper";
+// import CustomizedSteppers from "./components/Stepper";
+import RecipeReviewCard from "./components/MUICard";
 
 function App() {
   return (
     <div className="App">
-      <CustomizedSteppers />
+      <RecipeReviewCard />
       {/* <MUITextField /> */}
       {/* <MUISelect /> */}
     </div>
