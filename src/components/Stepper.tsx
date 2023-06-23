@@ -151,17 +151,18 @@ const steps = [
 export default function CustomizedSteppers() {
   return (
     <Stack sx={{ width: "100%" }} spacing={4}>
-      <Stepper alternativeLabel activeStep={1} connector={<QontoConnector />}>
+      {/* <Stepper alternativeLabel activeStep={1} connector={<QontoConnector />}>
         {steps.map((label) => (
           <Step key={label}>
             <StepLabel StepIconComponent={QontoStepIcon}>{label}</StepLabel>
           </Step>
         ))}
-      </Stepper>
+      </Stepper> */}
       <Stepper
         alternativeLabel
         activeStep={1}
-        connector={<ColorlibConnector />}
+        // connector={<ColorlibConnector />}
+        orientation="vertical"
       >
         {steps.map((label) => (
           <Step key={label}>
